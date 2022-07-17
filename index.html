@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+
+    <title>果汁网站</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> ZJGS-<span>202208</span> </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link active-link"> home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">About </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link"> Service</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Contact </a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+          <img src="./assets/images/index/bg.jpg" alt="#" class="nav__img" />
+        </div>
+
+        <!-- Toggle Button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home">
+        <div class="home__shape-small"></div>
+        <div class="home__shape-big"></div>
+        <img src="./assets/images/shape-bg.png" alt="" class="home__shape-bg" />
+
+        <div class="home__container container">
+          <div class="home__data">
+            <h1 class="home__title">
+              这里是
+              <span>2022届八班</span>
+              的网站
+            </h1>
+            <p class="home__description">
+              2018年8月12日 我们初逢 <br />
+              2022年7月12日 我们分别
+            </p>
+            <a href="pages/index.html" class="home__button"
+              >进入<i class="ri-arrow-right-s-line"></i
+            ></a>
+          </div>
+          <div class="home__images">
+            <img
+              src="./assets/images/index/BiYeQiang.jpg"
+              alt=""
+              class="home__liquid"
+            />
+            <div class="home__juice-animate">
+              <img
+                src="./assets/images/index/LiuYi.jpg"
+                alt=""
+                class="home__juice"
+              />
+            </div>
+            <img
+              src="./assets/images/index/YiShu.jpg"
+              alt=""
+              class="home__apple1"
+            />
+            <img
+              src="./assets/images/index/PaoBu.jpg"
+              alt=""
+              class="home__apple2"
+            />
+            <div>
+              <img
+                src="./assets/images/index/JunXun.jpg"
+                alt=""
+                class="home__leaf"
+              />
+              <img
+                src="./assets/images/index/BiYe.jpg"
+                alt=""
+                class="home__leaf"
+              />
+              <img
+                src="./assets/images/index/YiMai.jpg"
+                alt=""
+                class="home__leaf"
+              />
+              <img
+                src="./assets/images/index/YunDongHui.jpg"
+                alt=""
+                class="home__leaf"
+              />
+              <img
+                src="./assets/images/index/QiuYou.jpg"
+                alt=""
+                class="home__leaf"
+              />
+              <img
+                src="./assets/images/index/LiuYi2.jpg"
+                alt=""
+                class="home__leaf"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== GSAP ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
